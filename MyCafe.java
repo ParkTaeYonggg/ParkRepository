@@ -50,7 +50,7 @@ class Menu{
 
 
 
-public class MyCaffe {
+public class MyCafe {
     Scanner sc;
     
     int i = 1;
@@ -58,7 +58,7 @@ public class MyCaffe {
     Map<Integer,Integer> map2;
     
     
-    public MyCaffe() {
+    public MyCafe() {
         map2 = new TreeMap<>();
         sc = new Scanner(System.in);
         map = new HashMap<>();
@@ -68,7 +68,7 @@ public class MyCaffe {
         map.put(4, new Menu("과일주스",5000));
     }
     
-    public void caffeOpen() {
+    public void cafeOpen() {
        System.out.println(">>>카페를 오픈합니다.");
     }
 
